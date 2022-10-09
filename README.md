@@ -1,7 +1,7 @@
 # Experiments
 
 #### Description
-Android Studio development mobile application experiment collection.
+Android Studio development mobile application experiment one.
 
 #### Software Architecture
 Each experiment folder contains three files, Main_activity.java, activity_main.xml, and the xml file for the required value.
