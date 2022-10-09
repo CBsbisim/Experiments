@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="18dp"
+        android:text="@string/example_edittext" />
+
+    <Button android:id="@+id/GetResult" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignLeft="@+id/textView1" android:layout_below="@+id/textView1" android:layout_marginTop="100dp" android:text="@string/show_the_text"/>
+
+    <EditText
+        android:id="@+id/edittext1"
+        android:layout_width="61dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_alignLeft="@+id/GetResult"
+        android:layout_marginTop="25dp"
+        android:ems="30"
+        android:inputType="text"
+        android:text="@string/enter_text" />
+
+    <EditText
+        android:id="@+id/edittext2"
+        android:layout_width="61dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_alignLeft="@+id/GetResult"
+        android:layout_marginLeft="77dp"
+        android:layout_marginTop="25dp"
+        android:ems="30"
+        android:inputType="text"
+        android:text="@string/enter_text" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="225dp"
+        android:text="@string/result_text" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="250dp" />
+    
+</RelativeLayout>
