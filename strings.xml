@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <resources>
+        <string name="app_name">CALCULATOR</string>
+        <string name="action_settings">Settings</string>
+        <string name="example_edittext">PLZ INPUT TWO NUMBER TO SUMMARIZE:</string>
+        <string name="show_the_text">GetResult</string>
+        <string name="enter_text">input</string>
+        <string name="result_text">THE RESULT WILL BE SHOWN HERE👇:</string>
+    </resources>
+
