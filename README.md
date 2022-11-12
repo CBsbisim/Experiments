@@ -15,4 +15,5 @@ Just download the required experimental items.
 1.  ..\src\main\java\com\example\app\Main_activity.java
 2.  ..\src\main\res\layout\activity_main.xml
 3.  ..\src\main\res\values\ (value_type).xml
-4.  After putting the files according to the above path, select the device and run the code.
+4.  ..\src\main\res\drawable\ (drawable_file).xml
+5.  After putting the files according to the above path, select the device and run the code.
