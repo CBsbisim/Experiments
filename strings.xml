@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <resources>
+        <string name="app_name">CALCULATOR</string>
+        <string name="action_settings">Settings</string>
+        <string name="example_edittext">👇👇 PLZ INPUT TWO NUMBERS TO CALCULATE. 👇👇</string>
+        <string name="enter_text">input</string>
+        <string name="show_the_text">sum+</string>
+        <string name="show_the_text1">sub-</string>
+        <string name="show_the_text3">mul*</string>
+        <string name="show_the_text4">div/</string>
+        <string name="result">result</string>
+    </resources>
+
