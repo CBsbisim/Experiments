@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/example_edittext" />
+
+    <Button
+        android:id="@+id/GetResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_alignStart="@+id/textView1"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="250dp"
+        android:text="@string/show_the_text" />
+
+    <Button
+        android:id="@+id/GetResult2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_alignStart="@+id/GetResult"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="250dp"
+        android:text="@string/show_the_text1" />
+
+    <Button
+        android:id="@+id/GetResult3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/GetResult"
+        android:layout_alignStart="@+id/textView1"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/show_the_text3" />
+
+    <Button
+        android:id="@+id/GetResult4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/GetResult"
+        android:layout_alignStart="@+id/GetResult"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/show_the_text4" />
+
+    <EditText
+        android:id="@+id/edittext1"
+        android:layout_width="81dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="115dp"
+        android:background="@drawable/border"
+        android:ems="30"
+        android:hint="@string/enter_text"
+        android:inputType="text"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/edittext2"
+        android:layout_width="81dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_alignStart="@+id/GetResult"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="115dp"
+        android:background="@drawable/border"
+        android:ems="30"
+        android:hint="@string/enter_text"
+        android:inputType="text"
+        android:autofillHints="" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="81dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_alignStart="@+id/GetResult"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="278dp"
+        android:layout_marginTop="175dp"
+        android:background="@drawable/border2"
+        android:ems="30"
+        android:hint="@string/result"
+        android:textSize="18sp" />
+    
+</RelativeLayout>
